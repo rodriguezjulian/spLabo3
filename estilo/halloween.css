@@ -1,0 +1,54 @@
+body {
+    font-family: 'Chiller', cursive !important;
+    font-size: 24px !important;
+    background-color: #222 !important;
+    color: #ffffff !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Estilo para los párrafos (<p>) con la clase 'mi-estilo' */
+.mi-estilo {
+    color: #ff6347; /* Tomate */
+    font-size: 28px; /* Tamaño de letra más grande */
+    margin-right: 10px; /* Espaciado entre la etiqueta y el campo */
+}
+
+/* Estilo para los encabezados (<h5>) con la clase 'mi-estilo' */
+.mi-estilo-h5 {
+    color: #ff6347; /* Tomate */
+    font-size: 28px; /* Tamaño de letra más grande */
+    margin-right: 10px; /* Espaciado entre la etiqueta y el campo */
+}
+
+/* Estilo para los enlaces (<a>) con la clase 'mi-estilo' */
+.mi-estilo-a {
+    color: #ff6347; /* Tomate */
+    font-size: 28px; /* Tamaño de letra más grande */
+    margin-right: 10px; /* Espaciado entre la etiqueta y el campo */
+    text-decoration: none; /* Quitar subrayado predeterminado de los enlaces */
+}
+
+/* Estilo para los enlaces cuando están en estado 'hover' (sobre ellos) */
+.mi-estilo-a:hover {
+    color: #ff0000; /* Cambiar color al pasar el mouse */
+}
+
+.halloween-header {
+    background-color: #1d1d1d;
+    /* Fondo oscuro para el encabezado */
+    color: #ff9900;
+    /* Texto naranja */
+}
+
+.halloween-footer {
+    background-color: #1d1d1d;
+    /* Fondo oscuro para el pie de página */
+    color: #ff9900;
+    /* Texto naranja */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

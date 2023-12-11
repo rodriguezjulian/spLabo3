@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+/* Agrega esta clase para ocultar inicialmente el gif */
+.hidden {
+    display: none;
+}
+
+
+/* Agrega este estilo para alinear la imagen y el título en el encabezado */
+.halloween-header img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.halloween-header h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px; /* Ajusta este valor según sea necesario para dejar espacio entre la imagen y el título */
+}
+/* Ajusta el tamaño de la imagen */
+.halloween-header img.logo {
+    width: 100px; /* Puedes ajustar este valor según tus necesidades */
+    height: auto; /* Para mantener la proporción original de la imagen */
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Ajusta el estilo del título */
+.halloween-header h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px; /* Ajusta este valor según sea necesario para dejar espacio entre la imagen y el título */
+}
+/* Agrega esta regla al estilo.css */
+body {
+    background: url('/ProyectoPosta/imagenes/fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0; /* Elimina el margen predeterminado del body */
+    padding: 0; /* Elimina el relleno predeterminado del body */
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px;
+}
+
+nav a {
+    color:#ff6347;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Media queries para hacer el diseño responsive */
+
+/* Tablet */
+@media (max-width: 768px) {
+    header {
+        font-size: 18px;
+    }
+
+    nav a {
+        padding: 10px 15px;
+    }
+}
+
+/* Teléfono */
+@media (max-width: 480px) {
+    header {
+        font-size: 16px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#listaMonstruos {
+    display: flex;
+    flex-direction: row; /* Cambia de column a row para mostrar en filas horizontales */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  #listaMonstruos > div {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    background-color: #ff7b00; /* Color amarillo en formato hexadecimal */
+}
+
+  
+  #listaMonstruos img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #listaMonstruos p {
+    margin: 5px 0;
+  }
+
+  h2 {
+    text-align: center; /* Centra el texto */
+    color: #ff6347; /* Color rojo tomate para combinar con el estilo de la tabla */
+    font-size: 36px; /* Ajusta el tamaño del texto según tus preferencias */
+    margin-bottom: 30px; /* Espaciado inferior para separar del contenido de la tabla */
+  }
+.halloween-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px;
+}
+
+.footer-left {
+    display: flex;
+}
+
+.footer-left p {
+    margin: 0 10px; /* Ajusta el espacio entre los elementos según sea necesario */
+}
+
+.footer-right p {
+    text-align: right;
+    margin: 0;
+}
+
+/* Estilo para centrar el gif en el medio de la pantalla */
+#miGif {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999; /* Ajusta según sea necesario para que esté por encima de otros elementos */
+}
+.tamañoImagen {
+    width: 100%; /* Haz que el ancho sea del 100% para que se ajuste al contenedor */
+    height: auto; /* Mantén la proporción original de la imagen */
+}
+#contenidoAdicional {
+    display: none;
+}
+
+#contenidoAdicional:target {
+    display: block;
+}
+
+  
+  
+
+  
